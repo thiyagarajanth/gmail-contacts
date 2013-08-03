@@ -26,4 +26,3 @@ gem 'devise', '>= 2.1.0'
 gem "gdata_19", :git => "https://github.com/cis-sourabh/GData.git"
 gem 'contacts'
 gem "omnicontacts"
-gem "debugger"
