@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:cis-sourabh/GData.git
+  remote: https://github.com/cis-sourabh/GData.git
   revision: d3c584da2d77f0fee5d99c0a3b4d8138bf6fea06
   specs:
     gdata_19 (1.1.5)
