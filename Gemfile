@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "1.8.7"
+#ruby "1.8.7"
 
 gem 'rails', '3.2.8'
 
@@ -23,6 +23,7 @@ end
 
 gem 'jquery-rails'
 gem 'devise', '>= 2.1.0'
-gem "gdata_19", "~> 1.1.5"
+gem "gdata_19", :git => "git@github.com:cis-sourabh/GData.git"
 gem 'contacts'
 gem "omnicontacts"
+gem "debugger"

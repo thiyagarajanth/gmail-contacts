@@ -8,7 +8,6 @@ class HomeController < ApplicationController
   def login
   end
   def show_contacts
-  	debugger
   	@contacts = Contacts.new(:gmail,  params["email"],  params["password"]).contacts
   end
 end
