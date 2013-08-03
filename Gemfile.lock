@@ -38,16 +38,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
-    columnize (0.3.6)
     contacts (1.2.4)
       gdata (= 1.1.1)
       json (>= 0.4.1)
-    debugger (1.6.1)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.2.3)
-    debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.2.3)
     devise (2.1.2)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -77,6 +70,7 @@ GEM
       json
       rack
     orm_adapter (0.3.0)
+    pg (0.16.0)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -132,12 +126,12 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   contacts
-  debugger
   devise (>= 2.1.0)
   gdata_19 (~> 1.1.5)
   jquery-rails
   mysql2
   omnicontacts
+  pg
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
   therubyracer
