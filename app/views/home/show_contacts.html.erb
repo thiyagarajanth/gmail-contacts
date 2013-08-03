@@ -1,0 +1,15 @@
+<h2>Your Gmail contacts are : </h2>
+<table>
+	<thead>
+		<th>Name </th>
+		<th>Email </th>
+	</thead>
+	<tbody>
+		<%@contacts.each do |contact|%>
+		<tr>
+			<td><%= contact[0]%></td>
+			<td><%= contact[1]%></td>
+		</tr>
+		<%end%>
+	</tbody>
+</table>
